@@ -37,7 +37,7 @@ Then select and open ```Lab02-Unit-Testing.sln```
 ***[Add screenshots of your application in action]***
 
 #### Application Start
-![Image 1](https://via.placeholder.com/750x500)
+![Image 1](./start.jpg)
 #### Using the Application
 ![Image 1](https://via.placeholder.com/750x500)
 #### Application End
@@ -46,7 +46,8 @@ Then select and open ```Lab02-Unit-Testing.sln```
 ---
 
 ### Change Log
-***[The change log will list any changes made to the code base. This includes any changes from TA/Instructor feedback]***  
+***[The change log will list any changes made to the code base. This includes any changes from TA/Instructor feedback]***
+1.2: *Added some baseline code that will start the application and added the starter application image to the README.* - 7 July 2020  
 1.1: *Initial creation of program with only base code, README and gitignore files.* - 7 July 2020  
 
 
