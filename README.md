@@ -1,4 +1,4 @@
-# Console Application README Example
+# Lab02 - ATM Console - Unit Testing Application
 
 ## About Me Quiz
 
