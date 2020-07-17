@@ -39,7 +39,7 @@ Then select and open ```Lab02-Unit-Testing.sln```
 #### Application Start
 ![Image 1](./start.jpg)
 
-![Image 1](./final.jpg)
+![Image 1](./Final.jpg)
 
 ---
 
