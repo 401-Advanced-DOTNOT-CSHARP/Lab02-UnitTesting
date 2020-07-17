@@ -37,7 +37,9 @@ Then select and open ```Lab02-Unit-Testing.sln```
 ***[Add screenshots of your application in action]***
 
 #### Application Start
-![Image 1](final.jpg)
+![Image 1](./start.jpg)
+
+![Image 1](./final.jpg)
 
 ---
 
