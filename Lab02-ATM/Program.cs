@@ -6,6 +6,10 @@ namespace Lab02_ATM
     public class Program
     {
         static public decimal Balance = 1000;
+        /// <summary>
+        /// The method of all methods, we break if it breaks
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             try
@@ -18,7 +22,9 @@ namespace Lab02_ATM
                 Console.WriteLine(e.Message);
             }
         }
-
+        /// <summary>
+        /// Will Display the 4 options as long as they do not choose option 4: Exit. This method also calls all other methods to be executed
+        /// </summary>
         public static void UserInterface()
         {
             try
@@ -104,10 +110,19 @@ namespace Lab02_ATM
 
 
         }
+        /// <summary>
+        /// When called will return the current available Balance.
+        /// </summary>
+        /// <returns>Balance</returns>
         public static decimal ViewBalance()
         {
             return Balance;
         }
+        /// <summary>
+        /// When called will check if number is leaas than zero, if so returns balance otherwise it will subtract the amount from balance and then return balance
+        /// </summary>
+        /// <param name="number">Number to be withdrawn</param>
+        /// <returns>New Balance</returns>
         public static decimal Withdraw(decimal number)
         {
             if (number < 0)
@@ -122,6 +137,11 @@ namespace Lab02_ATM
 
             }
         }
+        /// <summary>
+        /// Receives a number to be deposited from the user. Verifies the number is a positive amount and then adds that to the balance and returns the balance.
+        /// </summary>
+        /// <param name="deposit">Amount to be deposited</param>
+        /// <returns>New Balance</returns>
         public static decimal Deposit(decimal deposit)
         {
             if (deposit < 0)
